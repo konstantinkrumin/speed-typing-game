@@ -1,0 +1,24 @@
+@import 'variables';
+@import 'textarea';
+@import 'time-input';
+@import 'buttons';
+
+/* MAIN */
+html,
+body {
+  background: $bg-color;
+  color: $accent-color;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  font-family: $font-family;
+  text-align: center;
+}
+
+body { font-weight: 400; }
+
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+}

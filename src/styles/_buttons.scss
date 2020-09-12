@@ -1,0 +1,16 @@
+@import 'variables';
+
+/* BUTTONS */
+button {
+  font-family: $font-family;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background: $accent-color;
+  padding: 10px 20px;
+  text-transform: uppercase;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}

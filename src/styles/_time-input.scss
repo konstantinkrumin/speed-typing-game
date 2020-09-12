@@ -1,0 +1,16 @@
+@import 'variables';
+
+/* TIME INPUT */
+input {
+  font-family: $font-family;
+  width: 30px;
+  height: 10px;
+  padding: 10px;
+  border: 3px solid black;
+  outline: none;
+  background: $accent-color;
+
+  &:disabled {
+    background-color: $disabled-bg-color;
+  }
+}

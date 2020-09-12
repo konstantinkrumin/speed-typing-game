@@ -1,0 +1,17 @@
+@import 'variables';
+
+/* TEXTAREA */
+textarea {
+  font-family: $font-family;
+  border: 3px solid black;
+  width: 90%;
+  margin: 0 auto;
+  outline: none;
+  height: 200px;
+  background: $accent-color;
+  padding: 10px;
+
+  &:disabled {
+    background-color: $disabled-bg-color;
+  }
+}
